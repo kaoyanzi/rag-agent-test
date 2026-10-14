@@ -1,0 +1,38 @@
+# ============ Python 虚拟环境 ============
+.venv/
+venv/
+env/
+ENV/
+
+# ============ Python 缓存与打包产物 ============
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# ============ IDE / 编辑器 ============
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# ============ 密钥与环境变量（务必不要提交）============
+.env
+.env.*
+*.key
+*.pem
+
+# ============ 运行时产物 ============
+logs/
+chroma_db/
+md5.txt
+
+# ============ WorkBuddy 本地元数据 ============
+.workbuddy/
+
+# ============ 系统文件 ============
+.DS_Store
+Thumbs.db
+desktop.ini
